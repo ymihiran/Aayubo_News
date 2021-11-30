@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">aayubo news</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_World">World News</string>
+    <string name="menu_Gossip">Gossips</string>
+    <string name="nav_header_sub">Sri Lankan\'s No 1 News Provider</string>
+    <string name="nav_header_title1">Aayubo News</string>
+    <string name="menu_featured">Featured</string>
+    <string name="menu_politics">Politics</string>
+    <string name="menu_sports">Sports</string>
+    <string name="menu_finance">Finance</string>
+    <string name="menu_Setting">Setting</string>
+    <string name="opt_Night">Enable Dark Mode</string>
+    <string name="menu_contact">Contact Us</string>
+    <string name="menu_about">About Us</string>
+    <string name="menu_ads">Advertise</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.aayubonews.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.aayubonews.ui.gallery.GalleryFragment"
+        android:label="@string/menu_World"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.aayubonews.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_Gossip"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_featured"
+        android:name="com.example.aayubonews.ui.featured.FeaturedFragment"
+        android:label="@string/menu_featured"
+        tools:layout="@layout/fragment_featured" />
+
+    <fragment
+        android:id="@+id/nav_politics"
+        android:name="com.example.aayubonews.ui.politics.PoliticsFragment"
+        android:label="@string/menu_politics"
+        tools:layout="@layout/fragment_politics" />
+
+    <fragment
+        android:id="@+id/nav_sports"
+        android:name="com.example.aayubonews.ui.sports.SportsFragment"
+        android:label="@string/menu_sports"
+        tools:layout="@layout/fragment_sports" />
+
+    <fragment
+        android:id="@+id/nav_finance"
+        android:name="com.example.aayubonews.ui.finance.FinanceFragment"
+        android:label="@string/menu_finance"
+        tools:layout="@layout/fragment_finance" />
+
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.example.aayubonews.ui.settings.SettingFragment"
+        android:label="@string/menu_Setting"
+        tools:layout="@layout/fragment_setting" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.aayubonews.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.aayubonews.ui.contact.ContactFragment"
+        android:label="@string/menu_contact"
+        tools:layout="@layout/fragment_contact" />
+
+    <fragment
+        android:id="@+id/nav_ads"
+        android:name="com.example.aayubonews.ui.advertisment.AdsFragment"
+        android:label="@string/menu_ads"
+        tools:layout="@layout/fragment_ads" />
+
+</navigation>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_page"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/globe_grid"
+            android:title="@string/menu_World" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/gossip"
+            android:title="@string/menu_Gossip" />
+
+        <item
+            android:id="@+id/nav_featured"
+            android:icon="@drawable/feature"
+            android:title="@string/menu_featured" />
+
+        <item
+            android:id="@+id/nav_politics"
+            android:icon="@drawable/politic"
+            android:title="@string/menu_politics" />
+
+        <item
+            android:id="@+id/nav_sports"
+            android:icon="@drawable/cricket"
+            android:title="@string/menu_sports" />
+
+        <item
+            android:id="@+id/nav_finance"
+            android:icon="@drawable/finance"
+            android:title="@string/menu_finance" />
+
+        <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/gear"
+                android:title="@string/menu_Setting" />
+            <item
+                android:id="@+id/night_switch"
+                android:title="Night Mode"
+                app:actionLayout="@layout/switch_item" />
+        </menu>
+        </item>
+
+
+    </group>
+
+</menu>
+
+
+

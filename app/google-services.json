@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "903515368489",
+    "project_id": "notification-dc2b5",
+    "storage_bucket": "notification-dc2b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903515368489:android:fd49b4e1c02c24d0ab8038",
+        "android_client_info": {
+          "package_name": "com.example.aayubonews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "903515368489-m0pppo5k7ro3ehcrub3d9ofao4a58dd8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHDq8godrulR9O8sYOEW0x6iSI4AcWIH4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "903515368489-m0pppo5k7ro3ehcrub3d9ofao4a58dd8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
